@@ -10,8 +10,9 @@
     "dev": "node edge-functions/relay.js"
   },
   "dependencies": {
-    "express": "^4.19.2"
-  },
+  "express": "^4.18.0",
+  "node-fetch": "^3.3.2"
+}
   "engines": {
     "node": ">=18"
   }
