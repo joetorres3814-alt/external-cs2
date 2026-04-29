@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: my-proxy-relay
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: TARGET_DOMAIN
+        sync: false   # این را در داشبورد Render مقدار بده (مثلاً https://your-server.com)
