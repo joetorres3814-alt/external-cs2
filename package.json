@@ -6,8 +6,8 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
+    "start": "relay.js",
+    "dev": "relay.js"
   },
   "dependencies": {
     "express": "^4.19.2"
